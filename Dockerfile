@@ -1,4 +1,4 @@
-FROM ubi8/php-72
+FROM centos7/php-72-centos7
 
 # Add application sources to a directory that the assemble script expects them
 # and set permissions so that the container runs without root access
